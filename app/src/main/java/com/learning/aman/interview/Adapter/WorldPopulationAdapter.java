@@ -9,7 +9,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.learning.aman.interview.Model.WorldPopulation;
 import com.learning.aman.interview.PreviewImage;
@@ -43,13 +42,13 @@ public class WorldPopulationAdapter extends RecyclerView.Adapter<WorldPopulation
         holder.country.setText(datalist.get(position).getCountry());
         holder.population.setText(datalist.get(position).getPopulation());
 //        holder.imagelink.setText(datalist.get(position).getFlag());
+
         holder.mView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(context, PreviewImage.class);
                 intent.putExtra("ImageLink",datalist.get(position).getFlag());
                 context.startActivity(intent);
-//                Toast.makeText(context, "sdnvl", Toast.LENGTH_SHORT).show();
             }
         });
         Picasso.get()

@@ -14,7 +14,4 @@ public class WorldPopulationList {
         return worldPopulationlist;
     }
 
-    public void setWorldPopulationlist(ArrayList<WorldPopulation> worldPopulationlist) {
-        this.worldPopulationlist = worldPopulationlist;
-    }
 }

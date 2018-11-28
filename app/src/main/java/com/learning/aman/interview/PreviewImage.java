@@ -19,8 +19,6 @@ public class PreviewImage extends AppCompatActivity {
         mImageView = (ImageView) findViewById(R.id.previewImage);
         Picasso.get()
                 .load(getIntent().getStringExtra("ImageLink"))
-                .resize(120, 60)
                 .into(mImageView);
-//        Toast.makeText(this, "LInK - "+getIntent().getStringExtra("ImageLink"), Toast.LENGTH_SHORT).show();
     }
 }

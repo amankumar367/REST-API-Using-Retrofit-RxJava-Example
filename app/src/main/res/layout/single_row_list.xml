@@ -33,7 +33,7 @@
                 android:text="Rank"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="#8f8888"/>
+                android:textColor="#ea6161"/>
 
             <TextView
                 android:id="@+id/country"
@@ -42,7 +42,7 @@
                 android:text="Country"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="#8f8888"/>
+                android:textColor="#1c46d1"/>
 
             <TextView
                 android:id="@+id/population"
@@ -51,7 +51,7 @@
                 android:text="Population"
                 android:textSize="20dp"
                 android:textStyle="bold"
-                android:textColor="#8f8888"/>
+                android:textColor="#5D4037"/>
 
             <TextView
                 android:id="@+id/imagelink"
